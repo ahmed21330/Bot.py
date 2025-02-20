@@ -1,0 +1,11 @@
+# Exported from Render on 2025-02-20T12:58:22Z
+services:
+- type: web
+  name: Bot.py
+  runtime: python
+  repo: https://github.com/ahmed21330/Bot.py
+  plan: free
+  region: oregon
+  buildCommand: pip install -r requirements.txt
+  startCommand: python Bot.py
+version: "1"
