@@ -1,6 +1,6 @@
 # Exported from Render on 2025-02-20T12:58:22Z
 services:
-- type: web
+- type: worker
   name: Bot.py
   runtime: python
   repo: https://github.com/ahmed21330/Bot.py
